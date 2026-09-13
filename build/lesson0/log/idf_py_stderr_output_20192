@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\12592\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfgen\__main__.py", line 18, in <module>
+    main()
+  File "C:\Users\12592\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfgen\core.py", line 751, in main
+    deprecated_options.replace(sdkconfig_in=name, sdkconfig_out=temp_file1)
+  File "C:\Users\12592\.espressif\python_env\idf5.4_py3.11_env\Lib\site-packages\kconfgen\core.py", line 130, in replace
+    for line_number, line in enumerate(input_file, start=1):
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xa8 in position 10: illegal multibyte sequence
+CMake Error at C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/kconfig.cmake:209 (message):
+  Failed to run kconfgen
+  (C:/Users/12592/.espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe;-m;kconfgen;--list-separator=semicolon;--kconfig;C:/Users/12592/esp/v5.4/esp-idf/Kconfig;--sdkconfig-rename;C:/Users/12592/esp/v5.4/esp-idf/sdkconfig.rename;--config;D:/project/esp32/Learning/sdkconfig;--defaults;D:/project/esp32/Learning/sdkconfig.defaults;--env-file;D:/project/esp32/Learning/build/lesson0/config.env).
+  Error 1
+Call Stack (most recent call first):
+  C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/build.cmake:681 (__kconfig_generate_config)
+  C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/project.cmake:710 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+

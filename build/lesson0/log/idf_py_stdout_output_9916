@@ -1,0 +1,20 @@
+-- IDF_TARGET not set, using default target: esp32
+-- Found Git: D:/softWare/Git/cmd/git.exe (found version "2.49.0.windows.1")
+-- git rev-parse returned 'fatal: detected dubious ownership in repository at 'C:/Users/12592/esp/v5.4/esp-idf'
+'C:/Users/12592/esp/v5.4/esp-idf' is owned by:
+	LAPTOP-MNP2H7OV/12592 (S-1-5-21-1412066009-2730460164-1534126029-1001)
+but the current user is:
+	LAPTOP-MNP2H7OV/CodexSandboxOffline (S-1-5-21-1412066009-2730460164-1534126029-1011)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/12592/esp/v5.4/esp-idf'
+-- ccache will be used for faster recompilation
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- The ASM compiler identification is unknown
+-- Found assembler: C:/Users/12592/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Users/12592/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Check for working C compiler: C:/Users/12592/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe - broken
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,10 @@
+[0/1] Re-running CMake...
+-- git describe returned 'fatal: bad object HEAD
+fatal: 'git status --porcelain=2' failed in submodule components/esp_wifi/lib'
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+C:\Users\12592\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SD:\project\esp32\Learning -BD:\project\esp32\Learning\build\lesson0

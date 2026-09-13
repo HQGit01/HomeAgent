@@ -1,0 +1,17 @@
+[
+  {
+    "lesson": 0,
+    "exit_code": 0,
+    "log": "D:\\project\\esp32\\Learning\\build\\validation\\lesson0.log"
+  },
+  {
+    "lesson": 17,
+    "exit_code": 0,
+    "log": "D:\\project\\esp32\\Learning\\build\\validation\\lesson17.log"
+  },
+  {
+    "lesson": 99,
+    "exit_code": 0,
+    "log": "D:\\project\\esp32\\Learning\\build\\validation\\lesson99.log"
+  }
+]

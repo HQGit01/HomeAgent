@@ -1,0 +1,37 @@
+CMake Error at C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/component.cmake:228 (message):
+  CMake Warning (dev) at build_properties.temp.cmake:8:
+
+    Syntax Warning in cmake code at column 106
+
+  
+
+    Argument not separated from preceding token by whitespace.
+
+  Call Stack (most recent call first):
+
+    C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:3 (include)
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+
+
+  CMake Error at D:/project/esp32/Learning/main/CMakeLists.txt:2 (file):
+
+    CONFIGURE_DEPENDS is invalid for script and find package modes.
+
+  Call Stack (most recent call first):
+
+    C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:107 (include)
+    C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:160 (__component_get_requirements)
+
+  
+
+
+
+Call Stack (most recent call first):
+  C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/build.cmake:644 (__component_get_requirements)
+  C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/project.cmake:710 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

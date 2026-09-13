@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/project/esp32/Learning/build/validation/CMakeFiles/bootloader
+D:/project/esp32/Learning/build/validation/CMakeFiles/bootloader.rule
+D:/project/esp32/Learning/build/validation/CMakeFiles/bootloader-complete.rule
+D:/project/esp32/Learning/build/validation/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/project/esp32/Learning/build/validation/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/project/esp32/Learning/build/validation/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/project/esp32/Learning/build/validation/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/project/esp32/Learning/build/validation/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/project/esp32/Learning/build/validation/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/project/esp32/Learning/build/validation/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

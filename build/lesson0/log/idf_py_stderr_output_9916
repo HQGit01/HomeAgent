@@ -1,0 +1,39 @@
+fatal: detected dubious ownership in repository at 'C:/Users/12592/esp/v5.4/esp-idf'
+'C:/Users/12592/esp/v5.4/esp-idf' is owned by:
+	LAPTOP-MNP2H7OV/12592 (S-1-5-21-1412066009-2730460164-1534126029-1001)
+but the current user is:
+	LAPTOP-MNP2H7OV/CodexSandboxOffline (S-1-5-21-1412066009-2730460164-1534126029-1011)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/12592/esp/v5.4/esp-idf
+CMake Error at C:/Users/12592/.espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/Users/12592/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: 'D:/project/esp32/Learning/build/lesson0/CMakeFiles/CMakeScratch/TryCompile-iq5djk'
+    
+    Run Build Command(s): C:/Users/12592/.espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_b4472
+    [1/2] C:\Users\12592\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles\cmTC_b4472.dir\testCCompiler.c.obj -c D:\project\esp32\Learning\build\lesson0\CMakeFiles\CMakeScratch\TryCompile-iq5djk\testCCompiler.c
+    FAILED: CMakeFiles/cmTC_b4472.dir/testCCompiler.c.obj 
+    C:\Users\12592\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles\cmTC_b4472.dir\testCCompiler.c.obj -c D:\project\esp32\Learning\build\lesson0\CMakeFiles\CMakeScratch\TryCompile-iq5djk\testCCompiler.c
+    thread 'main' panicked at 'assertion failed: `(left != right)`
+      left: `0`,
+     right: `0`: Failed to get path name. Error code: 5', main.rs:65:9
+    note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  C:/Users/12592/esp/v5.4/esp-idf/tools/cmake/project.cmake:564 (__project)
+  CMakeLists.txt:8 (project)
+
+
